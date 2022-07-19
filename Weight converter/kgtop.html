@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weight Conversion</title>
+    <link rel="stylesheet" href="kgtop.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Welcome to weight converter application.</h1>
+      <p>Enter the weight you want to convert in Kilograms.</p>
+      <p>
+        <label>Kilograms</label>
+      <input id='inputKilograms' type='number' name="" placeholder="kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+      </p>
+      <p>Your weight in pound is: <span id = 'outputPounds'></span></p>
+
+    </div>
+
+    <script src="kgtop.js">
+    </script>
+  </body>
+</html>
