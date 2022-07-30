@@ -1,0 +1,9 @@
+body{
+  background-color:pink;
+  font-size: 40px;
+  font-style: oblique;
+  font-family:sans-serif;
+  justify-content: center;
+  margin-top: 300px;
+  margin-left: device-center;
+}

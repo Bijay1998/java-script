@@ -1,0 +1,12 @@
+body{
+  background-color: grey;
+
+}
+
+#Converter{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+
+}
